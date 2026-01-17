@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "calcmod",
+  "version": "1.0.0",
+  "name": "CalcMod",
+  "description": "Калькулятор",
+  "authors": [
+    "young5rp"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "young5rp.calcmod.CalcMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.4",
+    "minecraft": "1.21.4",
+    "fabric": "0.119.4+1.21.4"
+  },
+  "mixins": [
+    "calcmod.mixins.json"
+  ],
+  "suggests": {
+  }
+}
